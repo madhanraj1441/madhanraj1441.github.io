@@ -1,0 +1,71 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: montserrat,sans-serif;
+	background-image:url("colorful_smoke_with_mask_5k.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.container{
+	text-align: center;
+}
+.btn-danger :hover
+{
+background-color: white;
+    border: solid skyblue 2px;
+    cursor: pointer !important;
+}
+.animated-text
+{
+	color :#fff;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform :translate(-50%,-50%);
+	padding: 0 40px;
+	height: 60px;
+	overflow: hidden;
+
+}
+.line
+{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 40px;
+	line-height: 60px;
+
+}
+.line:first-child
+{
+	animation :anim 10s infinite;
+
+}
+@keyframes anim
+{
+	2%{
+		margin-top: 0px;
+	}
+	16%{
+		margin-top: -60px;
+	}
+	33%{
+		margin-top: -120px;
+	}
+	45%{
+		margin-top: -180px;
+	}
+	50%{
+		margin-top: 180px;
+	}
+    66%{
+		margin-top: 120px;
+	}
+	82%{
+		margin-top: 60px;
+	}
+	100%{
+		margin-top: 0;
+	}
+
+}

@@ -1,0 +1,30 @@
+.container {
+  margin: 70px;
+  text-align:  center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 35px;
+  transform: skewY(-5deg);
+  letter-spacing: 2px;
+  word-spacing: -0px;
+  border: line skyblue; 
+  color: skyblue;
+  text-shadow: 
+    -1px -1px 0 black,
+    -2px -2px 0 black,
+    -3px -3px 0 black,
+    -4px -4px 0 black,
+    -5px -5px 0 black,
+    -6px -6px 0 grey,
+    -7px -7px 0 grey,
+    -30px 20px 30px dimgrey;
+    
+}
+img{
+     
+      transition: 1.1px;
+      
+   }
+img: hover
+{
+  transform: scale(1.1);
+}

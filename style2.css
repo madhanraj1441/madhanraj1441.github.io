@@ -1,0 +1,17 @@
+h1{
+	font-family: fantasy;
+   text-shadow: 2px 2px skyblue;
+   text-align: center;
+}
+.btn-danger :hover
+{
+background-color: white;
+    border: solid white 2px;
+    cursor: pointer !important;
+}
+body{
+  color: rgba(225,225,225,225);
+  text-transform: uppercase;
+  top: 15%;
+  background: linear-gradient(to right , skyblue , white);
+}
