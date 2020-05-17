@@ -1,0 +1,8 @@
+.col {
+	background-color: violet;
+    border: 2px dashed red;
+}
+.btn-danger :hover
+{
+background-color: blue;
+}
